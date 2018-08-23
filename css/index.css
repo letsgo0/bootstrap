@@ -1,0 +1,176 @@
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.navbar-brand {
+  background-image: url(../img/logo.jpg);
+  width: 50px;
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+img,
+.main-side-bar .list-group-item,
+.side-bar .card,
+.side-bar-card .news-card,
+.recommand .item {
+  border-radius: 3px;
+}
+
+.main-side-bar .list-group-item {
+  border: 0px;
+  margin-bottom: 4px;
+}
+
+.main-side-bar .list-group-item.active {
+  background-color: #ea0c3c;
+}
+
+.news-list .title,
+.side-bar-card .main-title,
+.recommand .title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.8;
+  display: block;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.news-list a:hover {
+  color: #337ab7;
+}
+
+.news-list .info,
+.side-bar-card .info,
+.recommand .info {
+  color: #999;
+}
+
+.news-list .info img {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 3px;
+}
+
+.news-list .item:first-child {
+  padding-top: 0;
+}
+
+.news-list .item {
+  border-bottom: 1px solid #ffa7ba;
+}
+
+.news-list .item {
+  padding: 10px 0;
+}
+
+.side-bar button {
+  color: #ea0c3c;
+  font-weight: bold;
+}
+
+.side-bar>* {
+  margin: 15px 0;
+}
+
+.side-bar .card{
+  padding: 15px 0px;
+}
+
+.side-bar-card,
+.side-bar .card,
+.recommand {
+  background: #0000000d;
+}
+
+.side-bar>*:first-child {
+  margin-top: 0;
+}
+
+
+.side-bar .card .title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.side-bar-card .main-title,
+.side-bar-card .news-card,
+.recommand .news-card .title,
+.recommand .title {
+  padding: 10px 15px;
+}
+
+.side-bar-card .main-title,
+.recommand .title {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.side-bar-card .news-card:hover,
+.recommand .item:hover {
+  background: rgba(0,0,0,0.05);
+}
+
+.footer {
+  text-align: center;
+  color: #999;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding: 40px;
+  background: #0000000d;
+}
+/* news.html   */
+.news-title {
+  line-height: 1.5;
+}
+
+.news-status {
+  color: #999;
+}
+
+.news-status .label {
+  color: #ddd;
+  opacity: 0.6;
+}
+
+.news-content {
+  margin: 20px 0;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.news-content img {
+  width: auto;
+  margin: 10px auto;
+}
+
+.recommand {
+  margin: 15px 0;
+}
+
+.recommand .item {
+  padding: 10px 0;
+}
+
+.recommand .news-card .card-title {
+  padding-bottom: 5px;
+}
+/* login.html */
+.container-sm {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.container-sm form button {
+  background-color: #00a1d6;
+  color: #fff;
+}
