@@ -1,0 +1,17 @@
+.main-navbar #menu-check:checked ~ .hidden-xs {
+  display: block !important;
+}
+
+#menu {
+  display: block;
+  position: absolute;
+  right: 15px;
+  top: 13px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ccc;
+}
+
+.container .xs-100 {
+  width: 100%;
+}

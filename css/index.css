@@ -20,7 +20,7 @@ img,
 .side-bar .card,
 .side-bar-card .news-card,
 .recommand .item {
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 .main-side-bar .list-group-item {
@@ -173,4 +173,16 @@ img,
 .container-sm form button {
   background-color: #00a1d6;
   color: #fff;
+}
+
+.margin-b {
+  margin-bottom: 10px;
+}
+
+#menu {
+  display: none;
+}
+
+.main-navbar .hidden-xs .nav > *:hover {
+  background-color: #eee;
 }

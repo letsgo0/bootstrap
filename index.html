@@ -6,30 +6,35 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/index.css">
+  <link media="(max-width:768px)" rel="stylesheet" href="css/mobile.css">
   <title>News for bootstrap</title>
 </head>
 <body>
-  <div class="navbar navbar-default">
+  <div class="navbar navbar-default main-navbar">
     <div class="container">
-      <div class="navbar-heading">
+      <div class="navbar-header">
         <a href="index.html" class="navbar-brand"></a>
       </div>
-      <ul class="nav navbar-nav">
-        <li><a href="index.html" class="nav nav-default">首页</a></li>
-        <li><a href="#" class="nav nav-default">国内</a></li>
-        <li><a href="#" class="nav nav-default">国际</a></li>
-        <li><a href="#" class="nav nav-default">数读</a></li>
-        <li><a href="#" class="nav nav-default">社会</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="login.html" class="nav nav-default">登陆</a></li>
-        <li><a href="signup.html" class="nav nav-default">注册</a></li>
-      </ul>
+      <label id="menu" for="menu-check">MENU</label>
+      <input id="menu-check" class="hidden" type="checkbox">
+      <div class="hidden-xs">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html" class="nav nav-default">首页</a></li>
+          <li><a href="#" class="nav nav-default">国内</a></li>
+          <li><a href="#" class="nav nav-default">国际</a></li>
+          <li><a href="#" class="nav nav-default">数读</a></li>
+          <li><a href="#" class="nav nav-default">社会</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="login.html" class="nav nav-default">登陆</a></li>
+          <li><a href="signup.html" class="nav nav-default">注册</a></li>
+        </ul>
+      </div>
     </div>
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-xs-2">
+      <div class="col-sm-2 hidden-xs">
         <div class="main-side-bar">
           <div class="list-group">
             <a href="#" class="list-group-item active">综合</a>
@@ -42,8 +47,8 @@
           </div>
         </div>
       </div>
-      <div class="col-xs-7">
-        <div class="news-list">
+      <div class="col-xs-7 xs-100">
+        <div class="news-list margin-b">
           <div class="item clearfix">
             <div class="col-xs-5">
               <img src="img/2-1.jpg" alt="爱你哟">
@@ -64,7 +69,7 @@
           </div>
           <div class="item clearfix">
             <div class="col-xs-5">
-              <img src="img/2-1.jpg" alt="爱你哟">
+              <img src="img/2-2.jpg" alt="爱你哟">
             </div>
             <div class="col-xs-7">
               <a href="#" class="title">
@@ -82,7 +87,7 @@
           </div>
           <div class="item clearfix">
             <div class="col-xs-5">
-              <img src="img/2-1.jpg" alt="爱你哟">
+              <img src="img/2-3.jpg" alt="爱你哟">
             </div>
             <div class="col-xs-7">
               <a href="#" class="title">
@@ -100,7 +105,7 @@
           </div>
           <div class="item clearfix">
             <div class="col-xs-5">
-              <img src="img/2-1.jpg" alt="爱你哟">
+              <img src="img/2-4.jpg" alt="爱你哟">
             </div>
             <div class="col-xs-7">
               <a href="#" class="title">
@@ -118,7 +123,7 @@
           </div>
           <div class="item clearfix">
             <div class="col-xs-5">
-              <img src="img/2-1.jpg" alt="爱你哟">
+              <img src="img/002.jpg" alt="爱你哟">
             </div>
             <div class="col-xs-7">
               <a href="#" class="title">
@@ -136,7 +141,7 @@
           </div>
           <div class="item clearfix">
             <div class="col-xs-5">
-              <img src="img/2-1.jpg" alt="爱你哟">
+              <img src="img/003.jpg" alt="爱你哟">
             </div>
             <div class="col-xs-7">
               <a href="#" class="title">
@@ -154,7 +159,7 @@
           </div>
           <div class="item clearfix">
             <div class="col-xs-5">
-              <img src="img/2-1.jpg" alt="爱你哟">
+              <img src="img/004.jpg" alt="爱你哟">
             </div>
             <div class="col-xs-7">
               <a href="#" class="title">
@@ -172,7 +177,7 @@
           </div>
           <div class="item clearfix">
             <div class="col-xs-5">
-              <img src="img/2-1.jpg" alt="爱你哟">
+              <img src="img/005.jpg" alt="爱你哟">
             </div>
             <div class="col-xs-7">
               <a href="#" class="title">
@@ -190,7 +195,7 @@
           </div>
           <div class="item clearfix">
             <div class="col-xs-5">
-              <img src="img/2-1.jpg" alt="爱你哟">
+              <img src="img/002.jpg" alt="爱你哟">
             </div>
             <div class="col-xs-7">
               <a href="#" class="title">
@@ -209,14 +214,16 @@
 
         </div>
       </div>
-      <div class="col-xs-3">
+      <div class="col-sm-3 hidden-xs">
         <div class="side-bar">
-          <form class="form-inline">
-            <div class="form-group">
-              <input type="text" class="form-control input-sm">
-              <button class="btn btn-default btn-sm">搜一下</button>
-            </div>
-          </form>
+          <div>
+            <form class="form-inline">
+              <div class="form-group">
+                <input type="text" class="form-control input-sm">
+                <button class="btn btn-default btn-sm">搜一下</button>
+              </div>
+            </form>
+          </div>
           <div class="card clearfix">
             <div class="col-xs-5">
               <img src="img/1-1.png">
