@@ -15,3 +15,7 @@
 .container .xs-100 {
   width: 100%;
 }
+
+.container .col-sm-4 {
+  clear: both;	
+}

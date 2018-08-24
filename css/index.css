@@ -149,7 +149,6 @@ img,
 }
 
 .news-content img {
-  width: auto;
   margin: 10px auto;
 }
 
@@ -185,4 +184,9 @@ img,
 
 .main-navbar .hidden-xs .nav > *:hover {
   background-color: #eee;
+}
+
+.container .col-xs-7 .news-list img,
+.container .col-sm-4 .recommand .item img {
+  margin-top: 8px;
 }
